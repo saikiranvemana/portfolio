@@ -152,7 +152,7 @@
       </div>
       <!-- - Cursor Follower-->
       <!-- PAGE HEADER -->
-      <header class="header header_menu-right header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="light" data-arts-header-sticky-theme="bg-dark-2" data-arts-header-logo="secondary" data-arts-header-sticky-logo="secondary" data-arts-header-overlay-theme="dark" data-arts-header-overlay-background="#000">
+      <header class="header header_menu-right header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="dark" data-arts-header-sticky-theme="bg-white" data-arts-header-logo="secondary" data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme="light" data-arts-header-overlay-background="#ffffff">
         <!-- top bar -->
         <div class="header__container header__controls">
           <div class="row justify-content-between align-items-center">
@@ -187,7 +187,6 @@
           </div>
         </div>
         <!-- - top bar -->
-        <!-- fullscreen overlay container -->
  <!-- fullscreen overlay container -->
 <div class="header__wrapper-overlay-menu container-fluid container-fluid_paddings">
     <!-- fullscreen menu -->
@@ -228,110 +227,112 @@
     <!-- - fullscreen widgets -->
 </div>
 </header>
-<!-- - fullscreen overlay container -->
       <!-- - PAGE HEADER -->
       <!-- PAGE MAIN -->
-      <div class="js-smooth-scroll bg-dark-1" id="page-wrapper" data-barba="container" data-arts-theme-text="light">
+      <div class="js-smooth-scroll bg-light-1" id="page-wrapper" data-barba="container">
         <main class="page-wrapper__content">
-          <!-- section MASTHEAD FULLSCREEN -->
-          <section class="section section-masthead section-fullheight text-center bg-dark-1" data-arts-os-animation="data-arts-os-animation" data-arts-theme-text="light" data-background-color="var(--color-dark-1)">
-            <div class="section-masthead__inner section-fullheight__inner container-fluid">
-              <header class="row section-masthead__header justify-content-center">
-                <div class="col">
-                  <div class="section-masthead__subheading small-caps mt-0 mb-1 mb-md-2 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span></span></div>
-                  <div class="w-100"></div>
-                  <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                    <h1 class="h1 mt-0 mb-0">Python</h1>
+          <!-- section MASTHEAD HALFSCREEN LEFT -->
+          <section class="section section-masthead section-fullheight" data-arts-os-animation="data-arts-os-animation" data-background-color="var(--color-light-1)">
+            <div class="section-masthead__inner section-fullheight__inner section-fullheight__inner_mobile-auto">
+              <div class="row no-gutters h-100 align-items-center">
+                <div class="col-lg-6 align-self-stretch" data-arts-theme-text="light">
+                  <header class="section-masthead__header section-masthead__header_absolute text-right">
+                    <div class="container-fluid container-fluid_paddings">
+                      <div class="section-masthead__subheading small-caps mt-0 mb-1 mb-md-2 split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words"><span></span></div>
+                      <div class="w-100"></div>
+                      <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                        <h1 class="h1 mt-0 mb-0">SQL</h1>
+                      </div>
+                      <div class="w-100"></div>
+                      <div class="section__headline mt-2 ml-auto"></div>
+                    </div>
+                  </header>
+                  <div class="section-masthead__wrapper-scroll-down section-masthead__wrapper-scroll-down_right">
+                    <div class="circle-button js-circle-button" data-arts-os-animation="true">
+                      <!-- curved label -->
+                      <div class="circle-button__outer">
+                        <div class="circle-button__wrapper-label">
+                          <div class="circle-button__label small-caps">Scroll Down</div>
+                        </div>
+                      </div>
+                      <!-- - curved label -->
+                      <!-- geometry wrapper -->
+                      <div class="circle-button__inner">
+                        <div class="circle-button__circle" data-arts-scroll-down="data-arts-scroll-down" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0">
+                          <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                          </svg>
+                        </div>
+                        <!-- browsers with touch support -->
+                        <div class="circle-button__icon circle-button__icon-touch">
+                          <svg enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m32 8c-1.104 0-2 .896-2 2v39.899l-14.552-15.278c-.761-.799-2.026-.832-2.828-.069-.8.762-.831 2.027-.069 2.827l16.62 17.449c.756.756 1.76 1.172 2.829 1.172 1.068 0 2.073-.416 2.862-1.207l16.586-17.414c.762-.8.73-2.065-.069-2.827-.799-.763-2.065-.731-2.827.069l-14.552 15.342v-39.963c0-1.104-.896-2-2-2z"></path>
+                          </svg>
+                        </div>
+                        <!-- - browsers with touch support -->
+                        <!-- - browsers without touch support -->
+                        <div class="circle-button__icon circle-button__icon-mouse">
+                          <svg class="svg-mouse" width="23px" height="35px" viewBox="0 0 23 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <!-- border -->
+                            <path class="svg-mouse__border" d="M11.5,0 C5.15875132,0 0,5.23135343 0,11.6610111 L0,23.3396542 C0,29.7691456 5.15875132,35 11.5,35 C17.8412487,35 23,29.7693119 23,23.3396542 L23,11.6610111 C23,5.23135343 17.8410847,0 11.5,0 Z M21.7222404,23.3396542 C21.7222404,29.0545544 17.136538,33.7037222 11.5,33.7037222 C5.86346203,33.7037222 1.27775956,29.0545544 1.27775956,23.3396542 L1.27775956,11.6610111 C1.27775956,5.946111 5.86346203,1.29627781 11.5,1.29627781 C17.136538,1.29627781 21.7222404,5.94594466 21.7222404,11.6610111 L21.7222404,23.3396542 Z"></path>
+                            <!-- - border -->
+                            <!-- wheel -->
+                            <path class="svg-mouse__wheel" d="M11.5,4 C11.2238902,4 11,4.28321727 11,4.63321727 L11,10.3667827 C11,10.7167827 11.2238902,11 11.5,11 C11.7761098,11 12,10.7167827 12,10.3667827 L12,4.63321727 C11.9998717,4.28321727 11.7761098,4 11.5,4 Z"></path>
+                            <!-- - wheel -->
+                          </svg>
+                        </div>
+                        <!-- - browsers without touch support -->
+                      </div>
+                      <!-- - geometry wrapper -->
+                    </div>
                   </div>
+                  <div class="section-image section-masthead__background section-masthead__background_halfscreen">
+                    <div class="section-image__wrapper js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                      <div class="js-transition-img__transformed-el">
+                        <div class="lazy-bg" data-src="img/assets/projects/mysql.jpg"></div>
+                      </div>
+                    </div>
+                    <!-- overlay -->
+                    <div class="overlay overlay_dark overlay_deither section-masthead__overlay"></div>
+                    <!-- - overlay -->
+                  </div>
+                </div>
+                <div class="col-lg-6 align-self-end">
+                  <div class="section-properties pt-small pt-md-0 pb-medium pb-md-2 container-fluid">
+                    <div class="row">
+                      <div class="section-properties__item col-lg-12 col-sm-6 mt-xsmall mt-md-small">
+                        <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                          <div class="figure-info__option small-caps">Programming Language</div>
+                          <div class="figure-info__value paragraph">SQL</div>
+                        </div>
+                      </div>
+                      <div class="section-properties__item col-lg-12 col-sm-6 mt-xsmall mt-md-small">
+                        <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                          <div class="figure-info__option small-caps">Type</div>
+                          <div class="figure-info__value paragraph">Back-End</div>
+                        </div>
+                      </div>
+                      <div class="section-properties__item col-lg-12 col-sm-6 mt-xsmall mt-md-small">
+                        <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                          <div class="figure-info__option small-caps">Tools Used</div>
+                          <div class="figure-info__value paragraph">MySQL Workbench</div>
+                        </div>
+                      </div>
+                      <div class="section-properties__item col-lg-12 col-sm-6 mt-xsmall mt-md-small">
+                        <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                          <div class="figure-info__option small-caps">Time Of Completion</div>
+                          <div class="figure-info__value paragraph">1 week</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- - section MASTHEAD HALFSCREEN LEFT -->
 
-                  <div class="w-100"></div>
-                  <div class="section__headline mt-2 mx-auto"></div>
-                </div>
-                <div class="section-masthead__wrapper-scroll-down section-masthead__wrapper-scroll-down_center">
-                  <div class="circle-button js-circle-button" data-arts-os-animation="true">
-                    <!-- curved label -->
-                    <div class="circle-button__outer">
-                      <div class="circle-button__wrapper-label">
-                        <div class="circle-button__label small-caps">Scroll Down</div>
-                      </div>
-                    </div>
-                    <!-- - curved label -->
-                    <!-- geometry wrapper -->
-                    <div class="circle-button__inner">
-                      <div class="circle-button__circle" data-arts-scroll-down="data-arts-scroll-down" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0">
-                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                          <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
-                        </svg>
-                      </div>
-                      <!-- browsers with touch support -->
-                      <div class="circle-button__icon circle-button__icon-touch">
-                        <svg enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg">
-                          <path d="m32 8c-1.104 0-2 .896-2 2v39.899l-14.552-15.278c-.761-.799-2.026-.832-2.828-.069-.8.762-.831 2.027-.069 2.827l16.62 17.449c.756.756 1.76 1.172 2.829 1.172 1.068 0 2.073-.416 2.862-1.207l16.586-17.414c.762-.8.73-2.065-.069-2.827-.799-.763-2.065-.731-2.827.069l-14.552 15.342v-39.963c0-1.104-.896-2-2-2z"></path>
-                        </svg>
-                      </div>
-                      <!-- - browsers with touch support -->
-                      <!-- - browsers without touch support -->
-                      <div class="circle-button__icon circle-button__icon-mouse">
-                        <svg class="svg-mouse" width="23px" height="35px" viewBox="0 0 23 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                          <!-- border -->
-                          <path class="svg-mouse__border" d="M11.5,0 C5.15875132,0 0,5.23135343 0,11.6610111 L0,23.3396542 C0,29.7691456 5.15875132,35 11.5,35 C17.8412487,35 23,29.7693119 23,23.3396542 L23,11.6610111 C23,5.23135343 17.8410847,0 11.5,0 Z M21.7222404,23.3396542 C21.7222404,29.0545544 17.136538,33.7037222 11.5,33.7037222 C5.86346203,33.7037222 1.27775956,29.0545544 1.27775956,23.3396542 L1.27775956,11.6610111 C1.27775956,5.946111 5.86346203,1.29627781 11.5,1.29627781 C17.136538,1.29627781 21.7222404,5.94594466 21.7222404,11.6610111 L21.7222404,23.3396542 Z"></path>
-                          <!-- - border -->
-                          <!-- wheel -->
-                          <path class="svg-mouse__wheel" d="M11.5,4 C11.2238902,4 11,4.28321727 11,4.63321727 L11,10.3667827 C11,10.7167827 11.2238902,11 11.5,11 C11.7761098,11 12,10.7167827 12,10.3667827 L12,4.63321727 C11.9998717,4.28321727 11.7761098,4 11.5,4 Z"></path>
-                          <!-- - wheel -->
-                        </svg>
-                      </div>
-                      <!-- - browsers without touch support -->
-                    </div>
-                    <!-- - geometry wrapper -->
-                  </div>
-                </div>
-              </header>
-            </div>
-            <div class="section-image section-masthead__background section-masthead__background_fullscreen">
-              <div class="section-image__wrapper js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                <div class="js-transition-img__transformed-el">
-                  <div class="lazy-bg" data-src="img/assets/projects/project-1.png"></div>
-                </div>
-              </div>
-              <!-- overlay -->
-              <div class="overlay overlay_circle-dark overlay_deither section-masthead__overlay"></div>
-              <!-- - overlay -->
-            </div>
-          </section>
-          <!-- - section MASTHEAD FULLSCREEN -->
-          <!-- section PROPERTIES -->
-          <section class="section section-properties section-content pt-small pb-medium">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-3 col-sm-6 section-properties__item mt-small">
-                  <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                    <div class="figure-info__option small-caps">Platform</div>
-                    <div class="figure-info__value paragraph">Udemy</div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 section-properties__item mt-small">
-                  <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                    <div class="figure-info__option small-caps">Type</div>
-                    <div class="figure-info__value paragraph">Back-End</div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 section-properties__item mt-small">
-                  <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                    <div class="figure-info__option small-caps">Tools Used</div>
-                    <div class="figure-info__value paragraph">Vs Code</div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 section-properties__item mt-small">
-                  <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                    <div class="figure-info__option small-caps">Time</div>
-                    <div class="figure-info__value paragraph">30.5 Hours</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-                    <!-- section with color theme change on scroll-->
+                     <!-- section with color theme change on scroll-->
           <div class="section-scroll bg-white" data-arts-theme-text="dark" data-arts-default-theme="bg-white" data-arts-scroll-theme="bg-dark-2" data-arts-scroll-theme-text="light" data-arts-scroll-offset="-200" data-arts-scroll-trigger-hook="0.0">    
                       <!-- section CONTENT #2 -->
             <div class="section pt-medium pb-small">
@@ -342,7 +343,7 @@
                       <div class="section-content__inner">
                         <div class="w-100"></div>
                         <div class="section-content__heading split-text js-split-text mb-1" data-split-text-type="lines,words" data-split-text-set="words">
-                          <h2 style="color: #86868B; font-weight: 500;">Python Programming </h2>
+                          <h2 style="color: #86868B; font-weight: 500;">SQL</h2>
                         </div>
                       </div>
                     </section>
@@ -352,19 +353,19 @@
                       <div class="section-content__inner">
                         <div class="w-100"></div>
                         <div class="section-content__heading split-text js-split-text mb-1" data-split-text-type="lines,words" data-split-text-set="words">
-                          <h3 style="color: #6A48F2; font-weight: 500; font-size: 24px;">About</h3>
+                          <h3 style="color: #6A48F2; font-weight: 500; font-size: 24px;">About </h3>
 
                         </div>
                         <div class="w-100"></div>
                         <div class="section-content__text split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                          <p>Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability and encourages a clean and concise syntax, making it an excellent choice for beginners and experienced programmers alike.</p>
+                          <p>Structured query language (SQL) is a programming language for storing and processing information in a relational database. A relational database stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.</p>
                         </div>
                       </div>
                       <div class="w-100">
                         <div class="section-masthead__wrapper-button mt-xsmall">
                             <a class="button button_bordered button_white" 
                                data-hover="Let's Go" 
-                               href="http://ude.my/UC-40261c87-5cfd-4add-b9a3-6f52916ef51b"
+                               href="https://www.udemy.com/certificate/UC-75425c91-f03f-4b98-9fd5-eede7a1c285e/"
                                target="_blank"
                                style="border: none; background-color: #6A48F2; color: white; font-weight: 600;"
                                onmouseover="this.style.backgroundColor='#6A48F2'; this.style.color='white'; this.style.boxShadow='0px 4px 199.7px 14px #6A48F2';"
@@ -379,14 +380,14 @@
                 </div>
               </div>
              <!-- section CONTENT #2 -->
-          <!-- - section PROPERTIES -->
+
           <!-- section NAV PROJECTS -->
           <section class="container-fluid section section-nav-projects section-fullheight text-center" data-arts-os-animation="data-arts-os-animation">
             <div class="section-fullheight__inner section-nav-projects__inner_actual">
               <div class="section__divider section__divider_top"></div>
-              <header class="section-nav-projects__header"><a class="section-nav-projects__link" href="project-details-2-bottom-center.html" data-pjax-link="flyingImage">
-                  <div class="section-nav-projects__subheading small-caps mb-1 mb-md-2">Next Project</div>
-                  <h2 class="section-nav-projects__heading h1 mt-0 mb-0">Case Study - Petzy</h2></a></header>
+              <header class="section-nav-projects__header"><a class="section-nav-projects__link" href="project-details-5-bottom-container-center.html" data-pjax-link="flyingImage">
+                  <div class="section-nav-projects__subheading small-caps mb-1 mb-md-2">Next</div>
+                  <h2 class="section-nav-projects__heading h1 mt-0 mb-0">HTML/CSS</h2></a></header>
               <div class="section-nav-projects__wrapper-scroll-down text-center">
                 <div class="circle-button js-circle-button">
                   <!-- curved label -->
@@ -429,7 +430,7 @@
             </div>
             <div class="container section-nav-projects__next-image section-fullheight__inner">
               <div class="section-nav-projects__wrapper-image js-transition-img overflow">
-                <div class="lazy js-transition-img__transformed-el"><img class="of-cover" src="#" data-src="img/assets/projects/project-2.png" alt="" width="1920" height="1280"/></div>
+                <div class="lazy js-transition-img__transformed-el"><img class="of-cover" src="#" data-src="img/assets/projects/project-5.png" alt="" width="1920" height="1280"/></div>
               </div>
             </div>
             <div class="section-fullheight__inner hidden"></div>
